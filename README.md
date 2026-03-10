@@ -65,3 +65,14 @@ In this work, we introduce **AniX**, a system enables users to provide 3DGS scen
 <p align="center">
   <small>© 2025 AniX Project. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
 </p>
+
+
+## 🔮 Citation
+```
+@article{wang2025animate,
+  title={Animate Any Character in Any World},
+  author={Wang, Yitong and Wei, Fangyun and Zhang, Hongyang and Dai, Bo and Lu, Yan},
+  journal={arXiv preprint arXiv:2512.17796},
+  year={2025}
+}
+```
