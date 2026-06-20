@@ -1,11 +1,17 @@
 <div align="center">
 
 <h1 align="center">
-  Animate Any Character in Any World
+  <!-- Animate Any Character in Any World -->
+  CustomX: Unified Character, Action, and Scene Customization in Video World Models
 </h1>
 
+<h3 align="center">
+  ECCV 2026
+</h3>
+
 <p align="center" style="font-size: 1.1em; color: #555;">
-  <strong>Long-horizon world exploration with user-specified characters capable of performing open-ended actions.</strong>
+  <!-- <strong>Long-horizon world exploration with user-specified characters capable of performing open-ended actions.</strong> -->
+  <strong>A framework that leverages user-specified 3D character and scene assets for long-horizon world exploration with various open-ended actions.</strong>
 </p>
 
 <div align="center">
@@ -50,29 +56,22 @@
 
 ## 📖 Abstract
 
-Recent advances in world models have greatly enhanced interactive environment simulation. Existing methods mainly fall into two categories: (1) static world generation models, which construct 3D environments without active agents, and (2) controllable-entity models, which allow a single entity to perform limited actions in an otherwise uncontrollable environment. 
-
-In this work, we introduce **AniX**, a system enables users to provide 3DGS scene along with a 3D or multi-view character, enabling interactive control of the character's behaviors and active exploration of the environment through natural language commands. The system features: (1) **Consistent Environment and Character Fidelity**, ensuring visual and spatial coherence with the user-provided scene and character; (2) a **Rich Action Repertoire** covering a wide range of behaviors, including locomotion, gestures, and object-centric interactions; (3) **Long-Horizon, Temporally Coherent Interaction**, enabling iterative user interaction while maintaining continuity across generated clips; and (4) **Controllable Camera Behavior**, which explicitly incorporates camera control—analogous to navigating 3DGS views—to produce accurate, user-specified viewpoints.
+Recent advances in world models have greatly enhanced interactive environment simulation. Existing methods mainly fall into two categories: (1) static world generation models, which construct 3D environments without active agents, and (2) controllable-entity models, which allow a single entity to perform limited actions in an otherwise uncontrollable environment. In this work, we introduce CustomX, leveraging the realism and structural grounding of static world generation while extending controllable-entity models to support user-specified characters capable of performing open-ended actions. Users can provide a 3DGS scene and a character, then use natural language to direct the character to perform diverse behaviors, ranging from basic locomotion to object-centric interactions, while freely exploring the environment. CustomX synthesizes temporally coherent video clips that preserve visual fidelity with the provided scene and character, formulated as a conditional autoregressive video generation problem. Built upon a pre-trained video generator, our training strategy significantly enhances motion dynamics while maintaining generalization across actions and characters. Our evaluation covers a broad range of aspects, including visual quality, character consistency, action controllability, and long-horizon coherence.
 
 <br>
 
 <div align="center" style="background-color: white; padding: 10px; border-radius: 5px;">
-  <img src="./assets/teaser_v3.jpg" width="100%" alt="AniX Teaser"/>
+  <img src="./assets/teaser_v3.jpg" width="100%" alt="CustomX Teaser"/>
 </div>
 
 ---
 
 <p align="center">
-  <small>© 2025 AniX Project. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
+  <small>© 2026 CustomX. Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
 </p>
 
 
 ## 🔮 Citation
 ```
-@article{wang2025animate,
-  title={Animate Any Character in Any World},
-  author={Wang, Yitong and Wei, Fangyun and Zhang, Hongyang and Dai, Bo and Lu, Yan},
-  journal={arXiv preprint arXiv:2512.17796},
-  year={2025}
-}
+TBD.
 ```
