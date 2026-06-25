@@ -73,5 +73,13 @@ Recent advances in world models have greatly enhanced interactive environment si
 
 ## 🔮 Citation
 ```
-TBD.
+@misc{wang2026customx,
+      title={CustomX: Unified Character, Action, and Scene Customization in Video World Models}, 
+      author={Yitong Wang and Fangyun Wei and Hongyang Zhang and Bo Dai and Yan Lu},
+      year={2026},
+      eprint={2512.17796},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.17796}, 
+}
 ```
